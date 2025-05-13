@@ -4,7 +4,7 @@
 This project focuses on analyzing customer data from a telecom company to predict churn using machine learning techniques. Customer churn represents the phenomenon of customers discontinuing services, which significantly impacts business revenue. The objective is to develop predictive models that assist in identifying potential churners, enabling companies to take proactive retention measures.
 
 
-Objective
+## Objective
 Analyze telecom customer data to identify patterns influencing churn.
 
 Develop machine learning models to predict customer churn.
@@ -12,7 +12,7 @@ Develop machine learning models to predict customer churn.
 Provide data-driven insights for business strategy improvements.
 
 
-Dataset Description
+## Dataset Description
 The dataset includes customer information such as demographics, subscribed services, billing details, and churn status.
 
 | Feature             | Description                                   |
@@ -29,10 +29,10 @@ The dataset includes customer information such as demographics, subscribed servi
 
 
 
-Tools and Technologies Used
-Python (Pandas, NumPy, Scikit-learn, XGBoost)
+## Tools and Technologies Used
+Python (Pandas, NumPy, Scikit-learn)
 
-Jupyter Notebook
+Google Collab
 
 Data Visualization (Matplotlib, Seaborn)
 
@@ -40,7 +40,7 @@ Machine Learning Algorithms: Logistic Regression, Decision Tree, Random Forest, 
 
 
 
-Methodology
+## Methodology
 Data Preprocessing
 Handling missing values and outliers.
 
@@ -50,14 +50,14 @@ Feature scaling and normalization.
 
 Dropping irrelevant columns (e.g., CustomerID).
 
-Exploratory Data Analysis (EDA)
 Data distribution analysis.
 
 Visualization of churn patterns.
 
 Correlation heatmaps and feature relationships.
 
-Model Building
+## Model Building
+
 Logistic Regression
 
 Decision Tree Classifier
@@ -66,15 +66,15 @@ Random Forest Classifier
 
 XGBoost Classifier
 
-Model Evaluation
+## Model Evaluation
 Metrics used: Accuracy, Precision, Recall, F1-Score, ROC-AUC.
 
 Confusion Matrix and ROC Curve analysis.
 
-Result Interpretation
+## Result Interpretation
 Identification of significant factors contributing to churn.
 
-Comparative analysis of model performances.
+## Comparative analysis of model performances.
 
 | Model               | Accuracy | Class 1 Recall | Class 1 Precision | F1 (Class 1) | ROC-AUC |
 |---------------------|----------|----------------|-------------------|--------------|---------|
@@ -85,7 +85,7 @@ Comparative analysis of model performances.
 
 
 
-Key Insights
+## Key Insights
 Month-to-month contract customers are more prone to churn.
 
 Higher monthly charges correlate with increased churn probability.
